@@ -7,8 +7,10 @@ body {
 
 
 }
+
 .box {
-    width: 650px;
+    width: 670px;
+    height: 410px;
     background: rgba(255, 255, 255, 0.664);
     
     padding: 40px;
@@ -17,6 +19,9 @@ body {
     margin-top: 5%;
     color: rgb(0, 0, 0);
    font-family: 'Century Gothlic', sans-serif;
+   box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
+   -5px -5px 5px rgba(0, 0, 0, 0.2),
+   -15px -15px 15px rgba(0, 0, 0, 0.2),
 
     
 
@@ -59,7 +64,7 @@ body {
 .box h5 {
     cursor: pointer;
     word-spacing: 1px;
-} 
+}
 
 h5 span {
     transition: 0.5s;
@@ -78,6 +83,16 @@ h5:hover span{
     text-shadow: 0 0 10px rgb(255, 255, 255),
     0 0 10px rgb(255, 255, 255),
     0 0 10px rgb(255, 255, 255);
+}
+.box_1 {
+    width: 270px;
+    height: 385px;
+    background: rgba(255, 255, 255, 0.664);
+
+  
+
+
+    
 }
 
 
