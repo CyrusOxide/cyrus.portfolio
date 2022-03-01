@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {
     margin: 0;
     padding: 0;
     background: url(https://img.search.brave.com/K3X0yuGQpeV-5tPQZ7EPj2J6xLLqufpHP2mFnveJg_I/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy5z/b2xpZGJhY2tncm91/bmRzLmNvbS9pbWFn/ZXMvMjU2MHgxNjAw/LzI1NjB4MTYwMC1j/eWFuLXByb2Nlc3Mt/c29saWQtY29sb3It/YmFja2dyb3VuZC5q/cGc) no-repeat;
     background-size: cover;
     justify-content: center;
 
-}
+} */
 .box {
     width: 670px;
     height: 410px;
@@ -90,3 +95,17 @@ h5:hover span{
 ul div a {
     padding: 0px 30px;
 }
+
+
+
+.fancy-undeline {
+    background-image: linear-gradient(120deg, #77A1D3,#79CBCA,#E684AE 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+  }
+
+  .fancy-undeline:hover {
+    background-size: 100% 88% !important;
+  } *
